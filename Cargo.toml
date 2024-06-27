@@ -1,0 +1,14 @@
+[package]
+name = "Discord-Scanner-Rust"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[build-dependencies]
+winresource = "0.1.17"
+
+[dependencies]
+colored = "2.0"
+glob = "0.3"
+figlet-rs = "0.1.5"
+

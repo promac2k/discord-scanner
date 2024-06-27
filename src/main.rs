@@ -13,8 +13,10 @@ fn main() {
     let standard_font = FIGfont::standard().unwrap();
     let discord_banner = standard_font.convert("Discord Scanner").unwrap();
     let author_banner = standard_font.convert("ProMac 2024").unwrap();
+    let version = "version 0.0.1";
 
     println!("{}", discord_banner.to_string().green());
+    println!("{}", version.to_string().green());
     println!("==============================================================================================");
     println!("{}", author_banner.to_string().blue());
 

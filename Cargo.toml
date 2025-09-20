@@ -1,6 +1,6 @@
 [package]
 name = "Discord-Scanner-Rust"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2021"
 build = "build.rs"
 authors = ["ProMac <promac@multibot.run>"]
@@ -11,10 +11,10 @@ homepage = "https://multibot.run"
 repository = "https://github.com/promac2k/discord-scanner"
 
 [build-dependencies]
-winresource = "0.1.17"
+winresource = "0.1.23"
 
 [dependencies]
-colored = "2.0"
-glob = "0.3"
+colored = "3.0.0"
+glob = "0.3.3"
 figlet-rs = "0.1.5"
 
